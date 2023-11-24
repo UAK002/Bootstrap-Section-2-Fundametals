@@ -12,18 +12,82 @@
       <h1 class="mb-5">Forms & Input</h1>
 
       <!-- Basic Form -->
+      <form>
+        <div class="mb-3">
+          <label for="email" class="form-label">Email Address</label>
+          <input type="email" class="form-control" />
+        </div>
+        <div class="mb-3">
+          <label for="password" class="form-label">Password</label>
+          <input type="password" class="form-control" />
+        </div>
+        <div class="mb-3">
+          <input type="checkbox" id="remember" class="form-check-input" />
+          <label for="remember" class="form-check-label">Remember Me</label>
+        </div>
+        <input type="submit" value="Login" class="btn btn-primary" />
+      </form>
 
       <br /><br />
 
       <!-- Other Fields -->
       <form>
         <!-- Select Fields -->
+        <div class="mb-3">
+          <select class="form-select">
+            <option>Best Time to call</option>
+            <option value="morning">Morning</option>
+            <option value="afternoon">afternoon</option>
+            <option value="evening">evening</option>
+          </select>
+        </div>
 
         <!-- Textarea -->
+        <div class="mb-3">
+          <textarea class="form-control" placeholder="Message"></textarea>
+        </div>
 
         <!-- Switch -->
+        <div class="form-switch form-check">
+          <input type="checkbox" class="form-check-input" />
+        </div>
 
         <!-- Inline Checkboxes -->
+        <div class="mb-3">
+          <!-- Single Checkbox -->
+          <div class="form-check form-check-inline">
+            <input
+              type="checkbox"
+              value="Option1"
+              id="ch1"
+              class="form-check-input"
+            />
+            <label for="ch1" class="form-check-label">1</label>
+          </div>
+          <!-- end of Single Checkbox -->
+          <!-- Single Checkbox -->
+          <div class="form-check form-check-inline">
+            <input
+              type="checkbox"
+              value="Option2"
+              id="ch2"
+              class="form-check-input"
+            />
+            <label for="ch2" class="form-check-label">2</label>
+          </div>
+          <!-- end of Single Checkbox -->
+          <!-- Single Checkbox -->
+          <div class="form-check form-check-inline">
+            <input
+              type="checkbox"
+              value="Option3"
+              id="ch3"
+              class="form-check-input"
+            />
+            <label for="ch3" class="form-check-label">3</label>
+          </div>
+          <!-- end of Single Checkbox -->
+        </div>
 
         <!-- Toggle Button -->
 
